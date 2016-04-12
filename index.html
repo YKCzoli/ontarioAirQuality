@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title></title>
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
+  <style>
+  body { margin:0; padding:0; }
+    #map_geo { position:absolute; top:0; bottom:0; width:100%; }
+    #map-overlay-Thunder-Bay{
+        position:absolute;
+        left:10px;
+        bottom:10px;
+        width:200px;
+        height:150px;
+        border:1px solid #fff;
+    }
+  </style>
+</head>
+<body>
+<div id='map_geo' class='map'> </div>
+<div id='map-overlay-Thunder-Bay'></div>
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoieWN6b2xpIiwiYSI6IjJkRURjVW8ifQ.VGeQDfYcDPlFWrr_1vD3cg';
+
+var mapGeo = L.mapbox.map('map_geo', 'mapbox.light')
+  .setView([44.3894, -79.6903], 7);
+
+var stations = L.mapbox.featureLayer()
+    .loadURL('/data/stations.geojson')
+    .on('ready', function(layer) {
+        this.eachLayer(function(marker) {
+            // See the following for styling hints:
+            // https://help.github.com/articles/mapping-geojson-files-on-github#styling-features
+            marker.setIcon(L.mapbox.marker.icon({
+                'marker-size': 'small',
+                'marker-color': '#d8cd88',
+                'marker-symbol': "circle-stroked"
+            }));
+        });
+    })
+    .addTo(mapGeo);
+
+stations.on('mouseover', function(e) {
+    e.layer.openPopup();
+});
+stations.on('mouseout', function(e) {
+    e.layer.closePopup();
+});
+
+var mapOverlayThunderBay = L.mapbox.map('map-overlay-Thunder-Bay', 'mapbox.light')
+    .fitBounds([[48.25165514645409,-89.52003479003906],[48.53843177405044,-88.94805908203125]]);
+
+//var myLayer = L.mapbox.featureLayer().setGeoJSON(stationTBay).addTo(mapOverlayThunderBay);
+
+// Create the XHR object.
+function createCORSRequest(method, url) {
+  var xhr = new XMLHttpRequest();
+  if ("withCredentials" in xhr) {
+    // XHR for Chrome/Firefox/Opera/Safari.
+    xhr.open(method, url, true);
+  } else if (typeof XDomainRequest != "undefined") {
+    // XDomainRequest for IE.
+    xhr = new XDomainRequest();
+    xhr.open(method, url);
+  } else {
+    // CORS not supported.
+    xhr = null;
+  }
+  return xhr;
+}
+
+// Helper method to parse the title tag from the response.
+function getTitle(text) {
+  return text.match('<title>(.*)?</title>')[1];
+}
+
+// Make the actual CORS request.
+function makeCorsRequest() {
+  // All HTML5 Rocks properties support CORS.
+  var url = 'http://airqualityontario.com/press/xml_summary.php';
+
+  var xhr = createCORSRequest('GET', url);
+  if (!xhr) {
+    alert('CORS not supported');
+    return;
+  }
+
+  // Response handlers.
+  xhr.onload = function() {
+    var text = xhr.responseText;
+    var title = getTitle(text);
+    alert('Response from CORS request to ' + url + ': ' + title);
+  };
+
+  xhr.onerror = function() {
+    alert('Woops, there was an error making the request.');
+  };
+
+  xhr.send();
+}
+
+</script>
+
+</body>
+</html>

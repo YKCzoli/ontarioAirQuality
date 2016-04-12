@@ -1,0 +1,707 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Barrie",
+        "Address": "83 Perry St.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "226 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.702306,
+          44.382361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Belleville",
+        "Address": "2 Sidney St., Water Treatment Plant",
+        "Station Type": "Urban",
+        "Height of Air Intake": "10 m",
+        "Elevation ASL": "75 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3955,
+          44.150528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Brampton",
+        "Address": "525 Main St.  N., Peel Manor",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "229 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.780917,
+          43.69875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Brantford",
+        "Address": "324 Grand River Ave.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "205 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.292639,
+          43.138611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Burlington",
+        "Address": "North Shore Blvd. E./lakeshore Rd.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "78 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.802639,
+          43.315111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Chatham",
+        "Address": "435 Grand Ave. W.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "15 m",
+        "Elevation ASL": "179 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.208306,
+          42.403694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Cornwall",
+        "Address": "Bedford St./3rd St. W.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "4 m",
+        "Elevation ASL": "55 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.735222,
+          45.017972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Dorset",
+        "Address": "1026 Bellwood Acres Rd.",
+        "Station Type": "Rural",
+        "Height of Air Intake": "3 m",
+        "Elevation ASL": "318 m",
+        "Pollutants Measure": " O, PM2.5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.932944,
+          45.224278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Grand Bend",
+        "Address": "Point Blake Conservation Area",
+        "Station Type": "Rural",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "185 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.742889,
+          43.333083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Guelph",
+        "Address": "Exhibition St./clark St. W.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "4 m",
+        "Elevation ASL": "330 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.264167,
+          43.551611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Hamilton Downtown",
+        "Address": "Elgin St./kelly St.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "4 m",
+        "Elevation ASL": "90 m",
+        "Pollutants Measure": " O, PM2.5, NO2, CO, SO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.861667,
+          43.257778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Hamilton Mountain",
+        "Address": "Vickers Rd./e. 18th St.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "3 m",
+        "Elevation ASL": "209 m",
+        "Pollutants Measure": " O, PM2.5, NO2, SO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.862778,
+          43.229417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Hamilton West",
+        "Address": "Main St. W./hwy 403",
+        "Station Type": "Urban",
+        "Height of Air Intake": "3 m",
+        "Elevation ASL": "96 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.90775,
+          43.257444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Kingston",
+        "Address": "23 Beechgrove Lane",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "84 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.521111,
+          44.219722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Kitchener",
+        "Address": "West Ave./homewood Ave.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "325 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.503806,
+          43.443833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "London",
+        "Address": "42 St. Julien St.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "244 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.200858,
+          42.97446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Mississauga",
+        "Address": "3359 Mississauga Rd. N., U Of T Campus",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "105 m",
+        "Pollutants Measure": " OPM2.5, NO2, SO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.65869,
+          43.54697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Newmarket",
+        "Address": "Eagle St. W./mccaffrey Rd.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "268 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48325,
+          44.044306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "North Bay",
+        "Address": "Chippewa St. W., Dept. National Defence",
+        "Station Type": "Urban",
+        "Height of Air Intake": "4 m",
+        "Elevation ASL": "219 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.449278,
+          46.323194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Oakville",
+        "Address": "Eighth Line/glenashton Dr., Halton Res.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "12 m",
+        "Elevation ASL": "165 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.702278,
+          43.486917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Oshawa",
+        "Address": "2000 Simcoe St. N., Durham College",
+        "Station Type": "Urban",
+        "Height of Air Intake": "7 m",
+        "Elevation ASL": "155 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.894917,
+          43.945944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Ottawa Central",
+        "Address": "960 Carling Ave.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "79 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.714194,
+          45.382528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Ottawa Downtown",
+        "Address": "Rideau St./wurtemburg St.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "4 m",
+        "Elevation ASL": "68 m",
+        "Pollutants Measure": " O, PM2.5, NO2, CO, SO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.676,
+          45.434333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Parry Sound",
+        "Address": "7 Bay St.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "176 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.039269,
+          45.338261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Petawawa",
+        "Address": "Petawawa Research Forest Facility",
+        "Station Type": "Rural",
+        "Height of Air Intake": "6 m",
+        "Elevation ASL": "174 m",
+        "Pollutants Measure": " O, PM2.5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.441194,
+          45.996722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Peterborough",
+        "Address": "10 Hospital Dr.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "10 m",
+        "Elevation ASL": "226 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.346222,
+          44.301917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Port Stanley",
+        "Address": "43665 Dexter Line, Elgin Water T. Plt",
+        "Station Type": "Rural",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "212 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.162889,
+          42.672083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Sarnia",
+        "Address": "99 Seaway Rd., Point Lands",
+        "Station Type": "Urban",
+        "Height of Air Intake": "4 m",
+        "Elevation ASL": "178 m",
+        "Pollutants Measure": " O, PM2.5, NO2, SO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.414078,
+          42.98166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Sault Ste. Marie",
+        "Address": "Sault College",
+        "Station Type": "Urban",
+        "Height of Air Intake": "8 m",
+        "Elevation ASL": "244 m",
+        "Pollutants Measure": " O, PM2.5, NO2, SO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.309917,
+          46.533194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "St. Catharines",
+        "Address": "Argyle Cres., Pump Stn.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "4 m",
+        "Elevation ASL": "105 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23475,
+          43.160056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Sudbury",
+        "Address": "155 Elm Street",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "271 m",
+        "Pollutants Measure": " O, PM2.5, NO2, SO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.003105,
+          46.49194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Thunder Bay",
+        "Address": "421 James St. S.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "15 m",
+        "Elevation ASL": "192 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.290167,
+          48.379389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Tiverton",
+        "Address": "4th Concession/bruce Rd. 23",
+        "Station Type": "Rural",
+        "Height of Air Intake": "4 m",
+        "Elevation ASL": "226 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.549722,
+          44.314472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Toronto Downtown",
+        "Address": "Bay St./wellesley St. W.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "10 m",
+        "Elevation ASL": "105 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.388111,
+          43.662972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Toronto East",
+        "Address": "Kennedy Rd./lawrence Ave. E.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "4 m",
+        "Elevation ASL": "168 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.274056,
+          43.747917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Toronto North",
+        "Address": "Hendon Ave./yonge St.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "5 m",
+        "Elevation ASL": "190 m",
+        "Pollutants Measure": " O, PM2.5, NO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.417722,
+          43.781611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Toronto West",
+        "Address": "125 Resources Rd.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "8 m",
+        "Elevation ASL": "141 m",
+        "Pollutants Measure": " O, PM2.5, NO2, CO, SO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5435,
+          43.709444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Windsor Downtown",
+        "Address": "467 University Ave. W.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "8 m",
+        "Elevation ASL": "176 m",
+        "Pollutants Measure": " O, PM2.5, NO2, CO, SO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.043667,
+          42.315778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Station Name": "Windsor West",
+        "Address": "College Ave./south St.",
+        "Station Type": "Urban",
+        "Height of Air Intake": "4 m",
+        "Elevation ASL": "180 m",
+        "Pollutants Measure": " O, PM2.5, NO2, SO2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.073139,
+          42.292889
+        ]
+      }
+    }
+  ]
+}
