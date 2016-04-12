@@ -27,7 +27,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoieWN6b2xpIiwiYSI6IjJkRURjVW8ifQ.VGeQDfYcDPlFWr
 
 var mapGeo = L.mapbox.map('map_geo', 'mapbox.light')
   .setView([44.3894, -79.6903], 7);
-
+/*
 var stations = L.mapbox.featureLayer()
     .loadURL('https://github.com/YKCzoli/ontarioAirQuality/blob/master/data/stations.geojson')
     .on('ready', function(layer) {
@@ -42,19 +42,38 @@ var stations = L.mapbox.featureLayer()
         });
     })
     .addTo(mapGeo);
-
-stations.on('mouseover', function(e) {
-    e.layer.openPopup();
-});
-stations.on('mouseout', function(e) {
-    e.layer.closePopup();
-});
-
+*/
 var mapOverlayThunderBay = L.mapbox.map('map-overlay-Thunder-Bay', 'mapbox.light')
     .fitBounds([[48.25165514645409,-89.52003479003906],[48.53843177405044,-88.94805908203125]]);
 
+
+var url = 'https://github.com/YKCzoli/ontarioAirQuality/blob/master/data/stations.geojson'
+
+    function load() {
+      // Fetch just the contents of a .geojson file from GitHub by passing
+      // `application/vnd.github.v3.raw` to the Accept header
+      // As with any other AJAX request, this technique is subject to the Same Origin Policy:
+      // http://en.wikipedia.org/wiki/Same_origin_policy the server delivering the request should support CORS.
+      $.ajax({
+        headers: {
+          'Accept': 'application/vnd.github.v3.raw'
+        },
+        xhrFields: {
+          withCredentials: false
+        },
+        dataType: 'json',
+        url: url,
+        success: function(geojson) {
+            // On success add fetched data to the map.
+            L.mapbox.featureLayer(geojson).addTo(mapGeo);
+        }
+      });
+    }
+
+
 //var myLayer = L.mapbox.featureLayer().setGeoJSON(stationTBay).addTo(mapOverlayThunderBay);
 
+/*
 // Create the XHR object.
 function createCORSRequest(method, url) {
   var xhr = new XMLHttpRequest();
@@ -101,6 +120,8 @@ function makeCorsRequest() {
 
   xhr.send();
 }
+
+*/
 
 </script>
 
