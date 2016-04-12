@@ -29,7 +29,7 @@ var mapGeo = L.mapbox.map('map_geo', 'mapbox.light')
   .setView([44.3894, -79.6903], 7);
 
 var stations = L.mapbox.featureLayer()
-    .loadURL('/data/stations.geojson')
+    .loadURL('https://github.com/YKCzoli/ontarioAirQuality/blob/master/data/stations.geojson')
     .on('ready', function(layer) {
         this.eachLayer(function(marker) {
             // See the following for styling hints:
